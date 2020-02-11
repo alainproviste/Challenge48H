@@ -1,0 +1,118 @@
+#box{
+	display: flex;
+	width: 50%;
+	justify-content: space-around;
+}
+
+#container{
+	display: flex;
+	width: 100%;
+}
+
+#envoyer{
+	text-align: center;
+	margin-top: 5vh;
+}
+
+header nav{
+	height: 10em;
+	width: 100%;
+	background-color: #233140;
+}
+
+header nav ul {
+    height: 100% ;
+    display: flex;
+}
+
+header nav ul li{
+    height: 100%;
+    width: 100%;
+    font-size: 48px;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    color:white;
+}
+
+body, ul {
+	margin: 0;
+	padding: 0;
+}	
+
+footer {
+  display: block;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 10vh;
+  color: white;
+  text-align: center;
+  background-color: #233140;
+}
+
+.header-back{
+    background-color: #2C3E50;
+    width: 100%;
+    height: 140px;
+    margin-bottom: 30px;
+    display: block;
+}
+
+.form-title{
+    letter-spacing: 1.5px;
+    margin-bottom: 5vh;
+    text-align: center;
+}
+
+.formulaire-form {
+
+    width: 400px;
+    margin: 0 auto;
+}
+
+.formulaire-form .form-group label {
+    margin: 20px 0px 10px 0px;
+    display: block;
+}
+
+.formulaire-form .form-group input {
+    border: 1px solid grey;
+    height: 30px;
+    width: 100%;
+}
+
+.formulaire-form .champ input {
+    border: 1px solid grey;
+    height: 100px;
+    width: 100%;
+}
+
+.formulaire-form .form-group input:focus {
+    border: 1px solid red;
+    outline: none;
+}
+
+.formulaire-form .form-group .champ {
+    border: 1px solid grey;
+    margin-top: 0px;
+    height: 155px;
+    width: 100%;
+}
+
+.cformulaire-form .form-group .champ:focus {
+    border: 1px solid red;
+    outline: none;
+}
+
+input[type="Submit"] {
+    border: 5px solid black;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    height: 40px;
+    width: 150px;
+    margin-top: 20px;
+    transition: 1s;
+}
